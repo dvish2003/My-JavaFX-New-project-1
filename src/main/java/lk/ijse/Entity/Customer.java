@@ -1,4 +1,15 @@
 package lk.ijse.Entity;
 
-public class CustomerEntity {
+import lombok.*;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter    // @Data
+@Setter     //@Data
+@ToString //@Data
+
+public class Customer {
+ private String ID;
+ private String NAME;
+ private String ADDRESS;
 }

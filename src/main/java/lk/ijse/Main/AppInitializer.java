@@ -1,4 +1,4 @@
-package lk.ijse;
+package lk.ijse.Main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
